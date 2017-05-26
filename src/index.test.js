@@ -1,6 +1,6 @@
 import {expect} from 'chai';
-import jsdom from 'jsdom';
-import fs from 'fs';
+//import jsdom from 'jsdom';
+//import fs from 'fs';
 
 describe ('Our first test', () => {
   it ('should pass', () => {
@@ -8,7 +8,7 @@ describe ('Our first test', () => {
   })
 })
 
-
+/*
 describe ('index.html', () => {
   it ('should say hello', (done) => {
     const index = fs.readFileSync ('./src/index.html', "utf-8");
@@ -20,3 +20,4 @@ describe ('index.html', () => {
     });
   })
 })
+*/
